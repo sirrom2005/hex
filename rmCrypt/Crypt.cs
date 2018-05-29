@@ -35,7 +35,7 @@ namespace rmCrypt
             foreach(string x in value.Split('-')) {
                 int b = Convert.ToInt32(x, 16);
                 output = output + Char.ConvertFromUtf32(b);
-                i++;
+                i++; 
             }
 
             return output;
